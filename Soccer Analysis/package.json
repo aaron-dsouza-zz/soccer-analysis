@@ -1,0 +1,19 @@
+{
+  "name": "player_analysis",
+  "version": "1.0.0",
+  "description": "Application that provides statistics and predictions of EPL players, teams and venues",
+  "main": "player.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/aarondsouza/soccer-analysis.git"
+  },
+  "author": "Aaron D'souza",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/aarondsouza/soccer-analysis#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
