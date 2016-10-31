@@ -1,3 +1,4 @@
+// Generate all the charts
 function generate_charts(data, player_name) {
     var season_names = [];
     var goals_scored = [];
