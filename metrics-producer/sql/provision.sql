@@ -10,7 +10,7 @@ CREATE TABLE public.fpl_player_stats_current (
 	goals_scored int2 NOT NULL,
 	assists int2 NOT NULL,
 	clean_sheets int2 NOT NULL,
-	goals_conceeded int2 NOT NULL,
+	goals_conceded int2 NOT NULL,
 	own_goals int2 NOT NULL,
 	penalties_saved int2 NOT NULL,
 	yellow_cards int2 NOT NULL,
@@ -27,4 +27,10 @@ CREATE TABLE public.fpl_player_stats_current (
 	selected int2 NOT NULL,
 	transfers_in int2 NOT NULL,
 	transfers_out int2 NOT NULL
+);
+
+CREATE TABLE public.fpl_player (
+	id int2 NOT NULL,
+	first_name varchar NULL,
+	second_name varchar NULL
 );

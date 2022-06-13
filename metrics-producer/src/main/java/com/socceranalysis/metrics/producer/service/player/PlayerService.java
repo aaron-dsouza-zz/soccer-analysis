@@ -21,8 +21,9 @@ public class PlayerService {
 
     public void updatePlayerList() throws IOException, URISyntaxException, InterruptedException {
         playerRepository.deleteAll();
-        List<Player> players = fplService.getPlayers();
+        List<Player> players = fplService.fetchPlayers();
         playerRepository.saveAll(players);
+        playerRepository.flush();
     }
 
     public List<Player> getPlayers() {
